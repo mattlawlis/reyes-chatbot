@@ -7,10 +7,12 @@ export default function ChatPage() {
     id: '12345',
     name: 'OpenAssistantGPT',
 
-    chatTitle: 'Chat with OpenAssistantGPT',
+    chatTitle: ' ',
     welcomeMessage:
-      "Welcome to OpenAssistantGPT! 🚀 I'm your AI assistant, crafted using this platform. How may I assist you today?",
-    chatMessagePlaceHolder: 'Ask us any question...',
+      "Welcome to the Law Office of George D. Reyes! I'm your AI assistant, here to help you with any questions you may have about our legal services. 
+
+Please note that while I can provide some legal advice, I am not an attorney. If you require specific legal counsel, please schedule a consultation with Mr. Reyes; please call us directly at 713.920.2888.",
+    chatMessagePlaceHolder: 'Ask us a question...',
 
     rightToLeftLanguage: false,
 
@@ -33,7 +35,7 @@ export default function ChatPage() {
     chatHistoryEnabled: true,
     chatFileAttachementEnabled: true,
 
-    displayFooterText: true,
+    displayFooterText: false,
     footerLink: 'https://www.openassistantgpt.io',
     footerTextName: 'OpenAssistantGPT',
   };
