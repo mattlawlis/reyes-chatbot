@@ -17,17 +17,17 @@ export default function ChatPage() {
     bubbleColor: 'linear-gradient(to top left, #003366, #336699)',
     bubbleTextColor: '#FFFFFF',
 
-    chatHeaderBackgroundColor: '#FFFFFF',
+    chatHeaderBackgroundColor: '#005b41',
     chatHeaderTextColor: '#52525b',
 
-    chatbotReplyBackgroundColor: '#e4e4e7',
-    chatbotReplyTextColor: '#000000',
+    chatbotReplyBackgroundColor: '#232d3f',
+    chatbotReplyTextColor: '#FFFFFF',
 
     userReplyBackgroundColor: '#e4e4e7',
     userReplyTextColor: '#000000',
 
     chatbotLogoURL:
-      'https://gwetfkan2dovfoiz.public.blob.vercel-storage.com/search-8jZhOvOBPxuTmohrup5TPvSzrjsyog.png',
+      'https://georgedreyes.law/wp-content/uploads/2024/05/reyes-favicon-2.ico',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
