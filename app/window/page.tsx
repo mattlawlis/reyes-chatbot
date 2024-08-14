@@ -20,11 +20,11 @@ export default function ChatPage() {
     chatHeaderBackgroundColor: '#005b41',
     chatHeaderTextColor: '#FFFFFF',
 
-    chatbotReplyBackgroundColor: '#232d3f',
-    chatbotReplyTextColor: '#FFFFFF',
+    chatbotReplyBackgroundColor: '#e4e4e7',
+    chatbotReplyTextColor: '#000000',
 
-    userReplyBackgroundColor: '#e4e4e7',
-    userReplyTextColor: '#000000',
+    userReplyBackgroundColor: '#232d3f',
+    userReplyTextColor: '#FFFFFF',
 
     chatbotLogoURL:
       'https://georgedreyes.law/wp-content/uploads/2024/05/reyes-favicon-2.ico',
