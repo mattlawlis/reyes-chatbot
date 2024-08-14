@@ -18,7 +18,7 @@ export default function ChatPage() {
     bubbleTextColor: '#FFFFFF',
 
     chatHeaderBackgroundColor: '#005b41',
-    chatHeaderTextColor: '#52525b',
+    chatHeaderTextColor: '#FFFFFF',
 
     chatbotReplyBackgroundColor: '#232d3f',
     chatbotReplyTextColor: '#FFFFFF',
