@@ -14,7 +14,7 @@ export default function ChatPage() {
 
     rightToLeftLanguage: false,
 
-    bubbleColor: 'linear-gradient(to top left, #003366, #336699)',
+    bubbleColor: '#005b41',
     bubbleTextColor: '#FFFFFF',
 
     chatHeaderBackgroundColor: '#005b41',
