@@ -1,4 +1,15 @@
 /* src/global.css */
+@font-face {
+  font-family: 'ReyesLawLight';
+  src: url('/fonts/Reyes-Law-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'ReyesLawLight', sans-serif;
+}
