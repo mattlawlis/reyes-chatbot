@@ -1,3 +1,5 @@
+import '@openassistantgpt/ui/dist/index.css';
+
 import localFont from 'next/font/local'
  
 // Font files can be colocated inside of `app`
