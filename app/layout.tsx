@@ -20,5 +20,5 @@ export default function RootLayout({
     <html lang="en" className={myFont.className}>
       <body>{children}</body>
     </html>
-  )
+  );
 }
