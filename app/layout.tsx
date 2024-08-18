@@ -1,18 +1,24 @@
-import '@openassistantgpt/ui/dist/index.css';
+import localFont from 'next/font/local'
+ 
+// Font files can be colocated inside of `app`
+const myFont = localFont({
+  src: './Reyes-Law-Light.ttf',
+  display: 'swap',
+})
 
 export const metadata = {
-  title: 'OpenAssistantGPT SDK Example',
-  description: 'Example of using OpenAssistantGPT SDK in a Next.js website',
+  title: 'George D. Reyes',
+  description: 'Chatbot',
 };
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body style={{ fontFamily: 'ReyesLawLight, sans-serif' }}>{children}</body>
+    <html lang="en" className={myFont.className}>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
